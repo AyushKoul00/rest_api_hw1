@@ -1,7 +1,7 @@
 import pytest
 import requests
 
-BASE_URL = "http://localhost:8080"
+BASE_URL = "http://52.14.26.228:80"
 
 # Welcome endpoint tests
 def test_welcome():
