@@ -10,7 +10,10 @@ jobs:
           command: python3 -m pip install -r requirements.txt
       - run:
           name: Run unit tests
-          command: cd ./src && python3 -m pytest 
+          command: |
+            cd ./src
+            python3 server.py
+            python3 -m pytest test_api.py
       - store_test_results:
           path: test-reports
       - store_artifacts:
