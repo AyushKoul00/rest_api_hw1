@@ -19,5 +19,11 @@ API functionality can be tested using tools such as curl or Postman, or by writi
 ## Conclusion
 This REST API showcases the flexibility and power of Python and Bottle for web service development, providing a range of string manipulation capabilities through a simple and intuitive interface. Its design principles emphasize ease of use, making it accessible to both novice and experienced programmers alike.
 
+## Additional Links
+* GitHub Link: `https://github.com/AyushKoul00/rest_api_hw1`
+* Documentation `Link: https://github.com/AyushKoul00/rest_api_hw1/wiki`
+* Docker Hub Link: `https://hub.docker.com/repository/docker/ayushk0ul/rest_api_hw1/general`
+* Circle CI Link: `https://app.circleci.com/pipelines/circleci/SBwsLs7BGnbJxPYsEdW9Bs/R6fP9LEwjuabE2s6w86mMi`
+
 ## Extra resources (for Learning/Reference)
 https://www.freecodecamp.org/news/how-to-setup-virtual-environments-in-python/
