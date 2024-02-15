@@ -7,6 +7,7 @@ The String Manipulation REST API is designed to provide a variety of string-rela
 * **Bottle**: A lightweight Python web framework used for building the REST API. It provides routing, request handling, and response formatting capabilities, making it ideal for small-scale web applications and services.
 * **Python Standard Library**: Utilized for various built-in functionalities such as time management (time module) and debugging (pprint module). The API leverages the Python Standard Library to perform string manipulations and to access current system time.
 * **Requests**: Although not part of the API implementation itself, the requests library is recommended for testing the API endpoints. It simplifies the process of sending HTTP requests in Python, making it a valuable tool for API testing.
+* **AWS EC2**: I created an EC2 instance in which I installed Docker and pulled my docker container of the REST API. I then ran that container on the instance and accessed it using the instance's Public IP address (on port 80)
 
 ### How the REST API Works
 The API operates over HTTP, allowing clients to interact with it using standard HTTP methods such as GET. Each endpoint corresponds to a specific string operation, with clients providing input through query parameters. The API processes these inputs and returns the results in plain text or JSON format, depending on the endpoint and the requested response type.
